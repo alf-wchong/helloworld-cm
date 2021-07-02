@@ -1,6 +1,8 @@
 # PoC SDK project validating the ease of adding 3rd party AMPs
 This is a useful project to get new hires an environment to experience TSG built AMPs rather than a bespoke ACS installer.
+
 [Instructions for adding 3rd party AMPs](https://github.com/Alfresco/alfresco-sdk/blob/sdk-4.2/docs/advanced-topics/amps.md#installing-3rd-party-amps) are from [MichaelW's](https://github.com/mtwallach) update to the SDK document.
+
 The 3rd party AMP is [AxelF's](https://github.com/AFaust) [fork of the JS-Console](https://github.com/AFaust/js-console/tree/bugfix/ACS-7-compatibility) that updates it for use in ACS7.
 
 # Alfresco AIO Project - SDK 4.2
