@@ -17,10 +17,10 @@
     <!-- Properties used in dependency declarations, you don't need to change these -->
     <alfresco.groupId>org.alfresco</alfresco.groupId>
     <alfresco.bomDependencyArtifactId>acs-packaging</alfresco.bomDependencyArtifactId>
-    <alfresco.platform.version>7.0.0</alfresco.platform.version>
+    <alfresco.platform.version>7.0.0-M2</alfresco.platform.version>
     <alfresco.share.version>7.0.0</alfresco.share.version>
     <!-- Docker images -->
-    <docker.acs.image>quay.io/alfresco/alfresco-content-repository</docker.acs.image>
+    <docker.acs.image>alfresco/alfresco-content-repository</docker.acs.image>
     <docker.share.image>alfresco/alfresco-share</docker.share.image>
     <keystore.settings>-Dencryption.keystore.type=JCEKS
             -Dencryption.cipherAlgorithm=AES/CBC/PKCS5Padding
