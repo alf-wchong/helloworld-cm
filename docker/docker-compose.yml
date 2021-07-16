@@ -60,6 +60,12 @@ services:
       - 61616:61616 # OpenWire
       - 61613:61613 # STOMP 
 
+  helloworld-cm-tsgaca:
+    image: tsgaca
+    ports: 
+      - "${tsgaca.port}:8080"
+    depends_on:
+      - helloworld-cm-acs
 
 volumes:
   helloworld-cm-acs-volume:

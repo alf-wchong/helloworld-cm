@@ -1,5 +1,8 @@
 **.log*
 
+# TSG
+TextLicense.l4j
+
 # Maven
 target/
 pom.xml.tag
